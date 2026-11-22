@@ -384,7 +384,7 @@ function chips(box, list, cb){
 }
 function share(){
   const msg = `Yes! 💛 ${pickDrink} · ${pickTime}. – ${CONFIG.name}`;
-  $('send').href = 'https://wa.me/?text=' + encodeURIComponent(msg);
+  $('send').href = 'https://wa.me/923312768081?text=' + encodeURIComponent(msg);
 }
 chips($('drinks'), CONFIG.drinks, t => pickDrink = t);
 chips($('times'), CONFIG.times, t => pickTime = t);
